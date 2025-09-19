@@ -31,7 +31,7 @@
             colors: {
               clifford: "#da373d",
               "bike-primary": "#E76F51",
-              'bike-primary-bg': 'rgba(231,111,81,0.1)',
+              "bike-primary-bg": "rgba(231,111,81,0.1)",
             },
           },
         },
@@ -95,9 +95,10 @@
               <h1 class="font-bold text-6xl">
                 Ride-on R15 V4 <br />with Smile
               </h1>
-              <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
+              <p class="text-gray-600">
+                "Turn every ride into an adventure - freedom starts on two
+                wheels. Feel the power, style, and comfort that redefine your
+                journey."
               </p>
               <button class="btn bg-bike-primary text-white">Purchase</button>
             </div>
@@ -119,9 +120,10 @@
               <h1 class="font-bold text-6xl">
                 Ride-on R15 V4 <br />with Smile
               </h1>
-              <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
+              <p class="text-gray-600">
+                "Turn every ride into an adventure - freedom starts on two
+                wheels. Feel the power, style, and comfort that redefine your
+                journey."
               </p>
               <button class="btn bg-bike-primary text-white">Purchase</button>
             </div>
@@ -143,9 +145,10 @@
               <h1 class="font-bold text-6xl">
                 Ride-on R15 V4 <br />with Smile
               </h1>
-              <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
+              <p class="text-gray-600">
+                "Turn every ride into an adventure - freedom starts on two
+                wheels. Feel the power, style, and comfort that redefine your
+                journey."
               </p>
               <button class="btn bg-bike-primary text-white">Purchase</button>
             </div>
@@ -160,11 +163,82 @@
             <a href="#slide1" class="btn btn-circle">❯</a>
           </div>
         </div>
-       
       </div>
     </header>
     <!-- main section -->
-    <main></main>
+    <main class="md:container mx-auto">
+      <!-- Fetured Bikes In This Year sect -->
+      <section class="my-24">
+        <h1 class="text-5xl font-semibold text-center mb-2">Fetured Bikes In This Year</h1>
+        <p class="text-bike-primary text-center mb-10">Best bike collection</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-center">
+          <div><img class="grayscale" src="images/others/feature-bike.png" alt=""></div>
+          <div><img src="images/others/feature-bike.png" alt=""></div>
+          <div><img class="grayscale" src="images/others/feature-bike.png" alt=""></div>
+        </div>
+      </section>
+      <!-- latest News sect  -->
+      <section class="my-24">
+        <h1 class="text-5xl font-semibold text-center mb-8">Latest News</h1>
+        <!-- card sect -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <!-- card1 -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img
+                src="images/others/latest1.png"
+                alt="Shoes"
+              />
+            </figure>
+            <div class="card-body space-y-4">
+              <h2 class="card-title ">Ducati XDIAVEL S-73</h2>
+              <p>
+               Experience the perfect blend of cruiser comfort and Ducati performance. The S-73 brings raw power with elegant design, built for riders who demand both speed and style.
+              </p>
+              <div class="card-actions">
+                <button class="btn bg-bike-primary text-white">Read More</button>
+              </div>
+            </div>
+          </div>
+          <!-- card2 -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img
+                src="images/others/latest2.png"
+                alt="Shoes"
+              />
+            </figure>
+            <div class="card-body space-y-4">
+              <h2 class="card-title ">Ducati XDIAVEL S-73</h2>
+              <p>
+              A true masterpiece of Italian engineering. With aggressive styling, advanced technology, and unmatched performance, the XDIAVEL S-73 is ready to dominate every road.
+              </p>
+              <div class="card-actions">
+                <button class="btn bg-bike-primary text-white">Read More</button>
+              </div>
+            </div>
+          </div>
+          <!-- card3 -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img
+                src="images/others/latest3.png"
+                alt="Shoes"
+              />
+            </figure>
+            <div class="card-body space-y-4">
+              <h2 class="card-title ">Ducati XDIAVEL S-73</h2>
+              <p>
+               Redefining freedom on two wheels. The XDIAVEL S-73 combines sportbike spirit with cruiser attitude, offering a ride that’s powerful, comfortable, and unforgettable.
+              </p>
+              <div class="card-actions">
+                <button class="btn bg-bike-primary text-white">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- footer section -->
     <footer></footer>
   </body>
